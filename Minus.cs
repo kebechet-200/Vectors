@@ -80,9 +80,7 @@ namespace quadFunc
             Vector A = new Vector(47.3, 32, 95.5);
             Vector B = new Vector(20,30,40);
             Vector C = A - B;
-            Console.WriteLine(C[1]);
-            Console.WriteLine(C[2]);
-            Console.WriteLine(C.Z);
+            Console.WriteLine($"Vector A's X ({A.X}) minus Vector B's X ({B.X}) is : {C[1]}\nVector A's Y ({A.Y}) minus Vector B's Y ({B.Y}) is : {C[2]}\nVector A's Z ({A.Z}) minus Vector B's Z ({B.Z}) is : {C.Z}");
             return;
         }
     }
