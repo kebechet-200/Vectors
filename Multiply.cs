@@ -14,10 +14,6 @@ namespace quadFunc
 
         public static Vector operator *(Vector A, double B) => new Vector(A.X * B, A.Y * B, A.Z * B);
             
-
-
-
-
         public double X
         {
             get;
