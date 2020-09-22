@@ -74,7 +74,7 @@ namespace quadFunc
             Console.WriteLine("Enter the number , for second multiplier : ");
             double B = Convert.ToDouble(Console.ReadLine());
             Vector C = A * B;
-            Console.WriteLine($" Vectors X multiply by {B} is : {C[1]}\nVectors Y multiply by {B} is : {C[2]}\nVectors Z multiply by {B} is : {C.Z}");
+            Console.WriteLine($"Vectors X multiply by {B} is : {C[1]}\nVectors Y multiply by {B} is : {C[2]}\nVectors Z multiply by {B} is : {C.Z}");
             return;
         }
     }
